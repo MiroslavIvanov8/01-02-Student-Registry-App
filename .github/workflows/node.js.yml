@@ -20,7 +20,7 @@ jobs:
     - name: Install Depencencies
       run: npm install
     - name: Start App
-      run: npm run start
+      run: npm run start &
     
   test:
     runs-on: ubuntu-latest
